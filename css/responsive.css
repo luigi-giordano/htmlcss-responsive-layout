@@ -1,0 +1,21 @@
+/* Soluzione qui */
+
+/* TABLET*/
+
+@media screen and (min-width: 768px) {
+    header#topbar {
+        justify-content: start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    h2.recipe-origin {
+        visibility: hidden;
+    }
+
+    header .recipe-title {
+        font-weight: 900;
+    }
+}
