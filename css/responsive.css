@@ -11,11 +11,66 @@
         padding: 50px;
     }
 
-    h2.recipe-origin {
-        visibility: hidden;
+    .recipe-origin {
+        display: inline;
     }
 
-    header .recipe-title {
-        font-weight: 900;
+    .recipe-title {
+        font-size: 1.5rem;
     }
+
+    .quick-notes li{
+        flex-basis: calc(100% / 3);
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ads{
+        display: block;
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width:992px){
+    .recipe-title{
+        font-size: 1.8rem;
+    }
+    .quick-notes ul{
+        display: block;
+    }
+    .recipe-card{
+        display: flex;
+    }
+    .recipe-video{
+        flex-basis: 70%;
+        max-height: 420px;
+    }
+
+
+
+
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+/* BONUS */
+
+@media screen and (min-width:576px){
+    .presentation img{
+        float: left;
+        margin: 10px 10px 10px 0;
+    }
+    .social-networks button{
+        flex-basis: 20%;
+    }
+
 }
